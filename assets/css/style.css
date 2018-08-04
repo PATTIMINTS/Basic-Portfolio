@@ -1,0 +1,137 @@
+
+/* Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd*/
+
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    
+
+}
+
+
+body{
+    background: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20%;
+    margin-top: 0; 
+    color: #777777;
+
+}
+.flexQ{
+    margin-bottom: 100 px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flexC{
+
+    padding: 10px ;
+    width: 20%;
+
+}
+.contact{
+    font-size: 25px;
+    color:#777777;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+h1 {
+    float: left;
+    margin: 0px 380px 50px 0px;
+    background: #4aaaa5;
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid #cccccc;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+h2 {
+    border-bottom: 2px solid #777777;
+    clear: both;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.bailey{
+    float: left;
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+section{
+    margin-top: 25px;
+}
+
+section p{
+    padding-bottom: 150px;
+    line-height: 2.5;
+    padding-right: 25px;
+    
+}
+
+
+a {
+    padding-top: 30px;
+    margin-bottom: 39px;
+    background: white;
+    color:#777777;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block; 
+    text-decoration: none;   
+}
+
+.content-wrap{
+    max-width: 960px;
+    margin: 0 auto;
+
+    background: white;
+
+}
+
+
+
+
+/* FOOTER SECTION */
+
+footer{
+    background: #666666;
+
+    padding: 20px;
+    
+    text-align: center;
+    font-size: small;
+    color: white;
+    border-top: 5px solid #4aaaa5;
+    
+
+    
+}
+ 
+footer p{
+    background: #666666;
+}
+
+
